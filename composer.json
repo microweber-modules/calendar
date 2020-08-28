@@ -1,8 +1,22 @@
 {
-	"name": "microweber/calendar",
-	"autoload": {
-		"psr-0": {
-			"Recurr": "src/"
-		}
+  "name": "microweber-modules/calendar",
+  "description": "calendar",
+  "license": "MIT",
+  "homepage": "https://microweber.org/modules/microweber-modules/calendar",
+  "authors": [
+    {
+      "name": "Bozhidar Slaveykov",
+      "email": "bobi@microweber.com"
+    }
+  ],
+"autoload": {
+	"psr-0": {
+		"Recurr": "src/"
 	}
+},
+  "keywords": [
+    "calendar"
+  ],
+  "type": "microweber-module",
+  "target-dir": "multilanguage"
 }
