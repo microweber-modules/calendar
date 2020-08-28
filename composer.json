@@ -18,5 +18,5 @@
     "calendar"
   ],
   "type": "microweber-module",
-  "target-dir": "multilanguage"
+  "target-dir": "calendar"
 }
