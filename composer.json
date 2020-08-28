@@ -1,0 +1,8 @@
+{
+	"name": "microweber/calendar",
+	"autoload": {
+		"psr-0": {
+			"Recurr": "src/"
+		}
+	}
+}
