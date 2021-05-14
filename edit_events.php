@@ -18,6 +18,8 @@ $all_days = calendar_get_events('group_by_type=1&group_by_date=1');
 </script>
 
 <div class="module-live-edit-settings">
+    <label class="control-label"><?php _e("Add your calendar event"); ?></label>
+    <small class="text-muted d-block mb-3"><?php _e("After creating the event, you should go to the live edit and drop the Calendar module in your chosen page."); ?></small>
     <div class="mb-3">
         <a href="javascript:editEventId(0)" class="btn btn-primary btn-rounded"><?php print _e('Add new event'); ?></a>
     </div>
